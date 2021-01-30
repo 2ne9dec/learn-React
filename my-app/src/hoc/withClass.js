@@ -3,9 +3,9 @@ import React from 'react';
 const withClass = (Component, className) => {
   return (props) => {
     return (
-      <div className={className}>
+      <section className={className}>
         <Component {...props} />
-      </div>
+      </section>
     );
   };
 };

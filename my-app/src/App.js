@@ -19,7 +19,7 @@ class App extends Component {
     };
   }
 
-  toogleCarsHandler = () => {
+  toggleCarsHandler = () => {
     this.setState({
       showCars: !this.state.showCars,
     });
@@ -53,7 +53,7 @@ class App extends Component {
         <Counter />
 
         <hr />
-        <button className={'AppButton'} onClick={this.toogleCarsHandler}>
+        <button className={'AppButton'} onClick={this.toggleCarsHandler}>
           Toogle cars
         </button>
 
